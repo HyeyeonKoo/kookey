@@ -46,13 +46,13 @@ sentences = [
     "로그를 보니 ^$^&%&#@#$ 이렇게 적혀있네요."
 ]
 
+from kookey.extract_keyword import KeywordExtractor
+
 keyword_extractor = KeywordExtractor(
     calculate_ppmi=True,
     save_characters=["-"], 
     save_morphs=["NNG", "SL", "SN", "OL", "NR"]
 )
-
-from kookey.extract_keyword import KeywordExtractor
 
 keyword_extractor = KeywordExtractor(calculate_ppmi=True,
     save_characters=["-"], save_morphs=["NNG", "SL", "SN", "OL", "NR"])
