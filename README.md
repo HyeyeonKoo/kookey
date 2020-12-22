@@ -89,7 +89,7 @@ candidate = synonym_extractor.get_keyword_candidate(
 ```
 - 결과
 ```
-[('딸기', '토마토', 0.652692), ('딸기', '사과', 0.652692)]
+[('딸기', '사과', 0.0498803)]
 ```
 - 실행
 ```{.python}
@@ -109,6 +109,6 @@ candidate = synonym_extractor.get_keyword_candidate(
 ```
 - 결과
 ```
-[]
+[('딸기', '토마토', 0.652692), ('딸기', '사과', 0.652692)]
 ```
 
